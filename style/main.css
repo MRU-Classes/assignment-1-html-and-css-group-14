@@ -1,4 +1,4 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     max-width: 100%;
@@ -12,7 +12,6 @@ header{
     padding: 25px;
     display: flex;
     align-items: center;
-    gap: 10px;
 }
 img {
     height: 10%;

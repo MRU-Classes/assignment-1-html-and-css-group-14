@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>How to contact us</title>
+        <link rel="stylesheet" href="style/main.css" />
+
+    </head>
+    <body>
+        <header>
+            <img src="img/logo.png" alt="Company Logo"/>
+            <h1>How to contact us</h1>
+
+        </header>
+        <nav>
+            <span><a href="Reasons.html" > Reason</a></span>
+            <span><a href="Services.html" > Services</a></span>
+            <span><a href="Contacts.html" class="active"> Contacts</a></span>
+        </nav>
+        <main>
+            <div class="Contact">
+                <h2>Contact information</h2>
+
+                <p>For any further questions, thoughts, or inquiries you are free to contact us by filling out the form below.</p>
+                <form id="formOne" method="post" action="mailto: @NHelpDesk.ca" >
+                    <fieldset>
+                        <img src="img/employeeworking.avif" alt="Workenviroment" class="float-right" >
+
+                    <legend>Contact us</legend>
+                        <dl>
+                            <dt>Date:</dt>
+                            <input type="date" id="date" name="date">
+                        </dl>
+                        
+
+                        <dl>   
+                            <dt>Are you a present client?</dt>
+                            <input type="radio" name="client" value="present" > Present
+                            <input type="radio" name="client" value="new" > New
+                        </dl>
+
+
+                        <dl>
+                            <dt>Select which services you are interested in (check all that apply): </dt>
+
+                            <input type="checkbox" name="service" value="Technical Troubleshooting"> Technical Troubleshooting
+                            <input type="checkbox" name="service" value="Cybersecurity"> Cybersecurity
+                            <input type="checkbox" name="service" value="Network Support"> Network Support
+                            <input type="checkbox" name="service" value="Other"> Other
+                        </dl>
+
+                    
+
+                        <dl>
+                        <label for="Subject">Subject:</label>
+                        <input type="text" id="subject" name="Subject" required>
+
+                        <label for="name">Name: </label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="Email">Email: </label>
+                        <input type="Email" id="email" name="email" required placeholder="placeholder@email.com">
+
+                        <label for="Telephone number">Telephone: </label>
+                        <input type="number" id="telephone number" name="number" placeholder="123-456-7890">
+
+                        <label for="Details">Details: </label>
+                        <textarea type="text" id="Details" name="Details"></textarea>
+                        </dl>
+                        <dl>
+                            <button type="submit"> Submit</button>
+                            <input type="reset">
+                        </dl>
+
+                    </fieldset>
+                </form>
+            </div>
+            <theade></theade>
+        </main>
+        <footer>
+            &copy; 2025 Noah's IT Help Desk.
+        </footer>
+    </body>
+</html>
